@@ -1,3 +1,42 @@
-p {
-  color: blue;
+@import 'https://fonts.googleapis.com/css?family=Oswald|Roboto';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+}
+
+nav {
+  margin: 0 auto;
+  background: #000;
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  width: 100%;
+}
+
+nav li {
+  justify-content: space-between;
+  width: 100%;
+  text-align: center;
+}
+
+nav li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+/*   font-weight: bold; */
+  color: #fff;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
 }
