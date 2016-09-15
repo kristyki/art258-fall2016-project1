@@ -57,13 +57,13 @@ img {
 }
 
 p {
-  margin: 200px;
-  padding: 100px 150px;
+  margin: 150px;
+  padding: 100px 0;
 /*   padding-bottom: 0; */
   text-align: center;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 600px;) {
   p {
     margin: 0;
     padding: 90px;
@@ -72,12 +72,12 @@ p {
     font-size: 1rem;
     color: #40586d;
   }
+}
 
 footer {
   background-color: #000;
   margin: 0 auto;
-  padding: 150px 400px;
-
+  padding: 150px 250px;
 }
 
 footer h3 {
@@ -90,9 +90,17 @@ footer ul {
 }
 
 footer li {
+  text-align: left;
   font-color: #fff;
   list-style: none;
-  font-size: 1.3rem;
+}
+
+
+@media screen and (min-width: 600px;){
+  footer {
+    margin: 0;
+    padding: 0 200px;
+  }
 }
 
 .articles {
@@ -102,8 +110,8 @@ footer li {
 }
 
 .article {
-  width: calc(33.3333% - 1rem);
- /* float: left;*/
+  display: inline-block;
+  width: 50%;
   overflow: hidden;
   padding: 1rem;
-  /*margin: 0 .25rem;*/
+  list-style: none;
