@@ -64,6 +64,10 @@ footer {
 
 }
 
+footer h3 {
+  color: #fff;
+}
+
 footer ul {
   margin: 0 auto;
   color: #fff;
